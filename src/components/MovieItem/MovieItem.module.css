@@ -1,0 +1,24 @@
+.movieItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.movieItem img {
+  width: 150px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.movieItem p {
+  margin: 10px 0 5px 0;
+}
+
+.movieItem a {
+  margin-bottom: 10px;
+  color: blue;
+  text-decoration: none;
+}
